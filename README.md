@@ -1,5 +1,10 @@
 # skill-security-scan for Claude Code
 
+[![License: MIT](https://img.shields.io/github/license/Zavelinski/skill-security-scan)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/Zavelinski/skill-security-scan?style=flat)](https://github.com/Zavelinski/skill-security-scan/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/Zavelinski/skill-security-scan)](https://github.com/Zavelinski/skill-security-scan/commits)
+[![Claude Code skill](https://img.shields.io/badge/Claude%20Code-skill-8A2BE2)](https://claude.com/claude-code)
+
 A [Claude Code](https://claude.com/claude-code) skill that **vets a third-party skill before it runs as you**. A skill is untrusted instructions executing with your privileges, and a skill that ships a hook is code that runs every turn — yet almost nobody reads one before installing. This statically scans a `SKILL.md` (plus any hooks/scripts it ships and the `settings.json` hook it would register) and returns a clear **ALLOW / REVIEW / BLOCK** verdict with the exact lines to remove.
 
 ## Why this exists
