@@ -1,10 +1,17 @@
 {
   "name": "skill-security-scan",
   "description": "Statically vets a third-party SKILL.md, its hooks, and the settings.json it would register before install, returning an ALLOW/REVIEW/BLOCK verdict.",
-  "version": "1.0.0",
-  "author": { "name": "Zavelinski" },
+  "version": "1.0.1",
+  "author": {
+    "name": "Zavelinski"
+  },
   "homepage": "https://github.com/Zavelinski/claude-code-skill-security-scan",
   "repository": "https://github.com/Zavelinski/claude-code-skill-security-scan",
   "license": "MIT",
-  "keywords": ["security","static-analysis","supply-chain","defensive"]
+  "keywords": [
+    "security",
+    "static-analysis",
+    "supply-chain",
+    "defensive"
+  ]
 }
