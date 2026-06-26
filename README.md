@@ -81,3 +81,9 @@ Static review of instructions and code — it catches what a careful human revie
 ## License
 
 MIT. See [LICENSE](LICENSE). Original work.
+
+---
+
+## Part of claude-code-skills
+
+This skill ships in the [claude-code-skills](https://zavelinski.github.io/claude-code-skills/) marketplace. Browse its landing page: [skill-security-scan](https://zavelinski.github.io/claude-code-skills/skill-security-scan.html). See also: [adversarial-verify](https://github.com/Zavelinski/claude-code-adversarial-verify), [scheduled-sop-runner](https://github.com/Zavelinski/claude-code-scheduled-sop-runner).
