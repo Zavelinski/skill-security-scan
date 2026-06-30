@@ -1,7 +1,7 @@
 {
   "name": "skill-security-scan",
-  "description": "Statically vets a third-party SKILL.md, its hooks, and the settings.json it would register before install, returning an ALLOW/REVIEW/BLOCK verdict.",
-  "version": "1.0.1",
+  "description": "Statically vets a third-party SKILL.md, its hooks, and the settings.json it would register before install, returning an ALLOW/REVIEW/BLOCK verdict. Ships an install-guard hook that auto-runs the scan whenever you go to install a skill or plugin.",
+  "version": "1.1.0",
   "author": {
     "name": "Zavelinski"
   },
@@ -12,6 +12,7 @@
     "security",
     "static-analysis",
     "supply-chain",
-    "defensive"
+    "defensive",
+    "hook"
   ]
 }
